@@ -1,0 +1,54 @@
+/* Загальні стилі */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fefefe;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+section,
+footer {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1,
+h2 {
+  color: #222;
+}
+
+/* Кнопки/посилання */
+a {
+  color: #0077cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #004d99;
+}
+
+/* Анімація секцій */
+section {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 2rem;
+}
